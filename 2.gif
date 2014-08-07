@@ -1,0 +1,16 @@
+把
+E:\ndk;C:\cygwin\bin
+加入环境变量PATH
+
+编辑cwgwin/home/user/.bash_profile
+加入以下代码
+
+NDK_ROOT=/cygdrive/e/ndk
+export NDK_ROOT
+
+编译代码
+先转到android项目目录
+cd /cygdrive/d/cocos2d-x-2.2.2/projects/Fight/proj.android
+cd /cygdrive/d/cocos2d-x-2.2.2/samples/Cpp/TestCpp/proj.android
+再执行
+sh build_native.sh   或者  ./build_native.sh
